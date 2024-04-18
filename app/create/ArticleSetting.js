@@ -146,7 +146,7 @@ const ArticleSetting = ({ body }) => {
                             return;
                           }
                           const path = data.path.replace(/ /g, "%20");
-                          const SUPABASE_REFERENCE = "hkvyihwfkphuwgetdtee";
+                          const SUPABASE_REFERENCE = "You supabase reference";
                           const URL = `https://${SUPABASE_REFERENCE}.supabase.co/storage/v1/object/public/thumbnail/${path}`;
                           setImgURL(URL);
                           setFieldValue("thumbnail", URL);
